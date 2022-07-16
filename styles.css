@@ -1,0 +1,69 @@
+.nav-pills .nav-link {
+    background-color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: gray;
+    display: flex;
+}
+.nav-link {
+    color: gray;
+}
+.nav-link:focus, .nav-link:hover {
+    color: gray;
+}
+.post {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: white;
+}
+.post-header {
+display: flex;
+}
+.post img {
+    width: 100%;
+}
+.post h2 {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.post-header p {
+    text-align: right;
+    color: gray;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.post-footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.h2-1 {
+    padding-right: 400px;
+}
+.post {
+    width: 700px;
+    margin: auto;
+    margin-top: 60px;
+}
+.post-footer b {
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 5px;
+}
+.like-comment {
+    display: flex;
+    padding: 10px;
+}
+.like-comment span {
+    padding: 0px;
+    padding-left: 550px;
+}
+.like-comment h4 {
+    padding-left: 15px;
+    color: gray;
+    font-size: small;
+}

@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>bootstrap photo feed</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/de76181adb.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="fa-brands fa-instagram" style="font-size: xx-large"></i>
+          <img src="https://freepngimg.com/save/76861-web-instagram-script-typeface-typography-font/1785x612" alt="" width="90" height="35" class="d-inline-block align-text-top">
+        </a>
+        <div class="nav-bar">
+    <!-- Button -->
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#postmodal">
+      Create Post
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="postmodal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="postModal"aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class= "modal-content">
+          <div class="modal-body">
+            <form>
+            <div class="form-group">
+            <label for="FormControlTextareal"></label>
+            <textarea class="form-control border-dark" id="FormControlTextareal"rows="2"></textarea>
+            </div>
+            </form>
+            <i class="fas fa-camera" style="font-size: 20px; margin-right: 2px; border: 1.5px solid Lightgray; padding: 6px; border-radius: 4px"></i>
+            <i class="fas fa-man-marker-alt" style="font-size: 20px; border: 1.5px solid lightgray; padding: 6px 8px; border-radius: 4px;"></i>
+          </div>   
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-dark"
+              data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-success">Publish</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Dropdown -->
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-cog"> </i>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby= "navbarDropdown">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-iten" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</as>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Log out</a>
+      </div>
+      </div>
+      </div>
+      </div>
+      </nav>
+    <!-- Navpills -->
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+          <i class="fas fa-th"></i>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-4 mb-4 mr-4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyxSfVbKfo4kAgLMZRCeHg5Rg6za__l5Z7A&usqp=CAU" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/80891.jpg" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/81032.jpg" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/80802.jpg" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/80918.jpg" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/80928.jpg" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/80935.jpg" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/80902.jpg" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <img src="https://fondosmil.com/fondo/80859.png" class="w-100">
+            </div>
+          </div>
+        </div>
+       </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="container-fluid bg-light">
+          <div class="row col-12 col-md-12 col-lg-12">
+            
+            <div class="post">
+              <div class="post-header">
+                 <div class="h2-1">
+                  <h2>My first photo</h2>
+              </div>
+                  <p>12/14</p>
+              </div>
+              <div>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyxSfVbKfo4kAgLMZRCeHg5Rg6za__l5Z7A&usqp=CAU">
+              </div>
+              <div class="post-footer">
+                <b>74 likes</b>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                <div class="like-comment">
+                <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </div>
+              </div>
+              </div>
+              <div class="post">
+                <div class="post-header">
+                   <div class="h2-1">
+                    <h2>My first photo</h2>
+                </div>
+                    <p>12/14</p>
+                </div>
+                <div>
+                    <img src="https://fondosmil.com/fondo/80891.jpg">
+                </div>
+                <div class="post-footer">
+                  <b>26 likes</b>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                  <div class="like-comment">
+                  <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                  </div>
+                </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                     <div class="h2-1">
+                      <h2>My first photo</h2>
+                  </div>
+                      <p>12/14</p>
+                  </div>
+                  <div>
+                      <img src="https://fondosmil.com/fondo/81032.jpg">
+                  </div>
+                  <div class="post-footer">
+                    <b>85 likes</b>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                    <div class="like-comment">
+                    <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="post">
+                    <div class="post-header">
+                       <div class="h2-1">
+                        <h2>My first photo</h2>
+                    </div>
+                        <p>12/14</p>
+                    </div>
+                    <div>
+                        <img src="https://fondosmil.com/fondo/80802.jpg">
+                    </div>
+                    <div class="post-footer">
+                      <b>99 likes</b>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                      <div class="like-comment">
+                      <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="post">
+                      <div class="post-header">
+                         <div class="h2-1">
+                          <h2>My first photo</h2>
+                      </div>
+                          <p>12/14</p>
+                      </div>
+                      <div>
+                          <img src="https://fondosmil.com/fondo/80918.jpg">
+                      </div>
+                      <div class="post-footer">
+                        <b>69 likes</b>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                        <div class="like-comment">
+                        <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="post">
+                        <div class="post-header">
+                           <div class="h2-1">
+                            <h2>My first photo</h2>
+                        </div>
+                            <p>12/14</p>
+                        </div>
+                        <div>
+                            <img src="https://fondosmil.com/fondo/80928.jpg">
+                        </div>
+                        <div class="post-footer">
+                          <b>39 likes</b>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                          <div class="like-comment">
+                          <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="post">
+                          <div class="post-header">
+                             <div class="h2-1">
+                              <h2>My first photo</h2>
+                          </div>
+                              <p>12/14</p>
+                          </div>
+                          <div>
+                              <img src="https://fondosmil.com/fondo/80935.jpg">
+                          </div>
+                          <div class="post-footer">
+                            <b>64 likes</b>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                            <div class="like-comment">
+                            <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="post">
+                            <div class="post-header">
+                               <div class="h2-1">
+                                <h2>My first photo</h2>
+                            </div>
+                                <p>12/14</p>
+                            </div>
+                            <div>
+                                <img src="https://fondosmil.com/fondo/80902.jpg">
+                            </div>
+                            <div class="post-footer">
+                              <b>43 likes</b>
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                              <div class="like-comment">
+                              <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="post">
+                              <div class="post-header">
+                                 <div class="h2-1">
+                                  <h2>My first photo</h2>
+                              </div>
+                                  <p>12/14</p>
+                              </div>
+                              <div>
+                                  <img src="https://fondosmil.com/fondo/80859.png">
+                              </div>
+                              <div class="post-footer">
+                                <b>53 likes</b>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita at repellat voluptatem in. At culpa consectetur, incidunt neque temporibus veniam maiores sed quasi nisi error libero illum accusantium? Qui, quas.></p>
+                                <div class="like-comment">
+                                <i class="fa-regular fa-heart"></i><h4>Comment</h4><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                </div>
+                              </div>
+                              </div>
+                              
+
+          </div>
+        </div>
+      
+      
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>
